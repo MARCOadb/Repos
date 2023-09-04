@@ -8,8 +8,8 @@ export default function Rotas() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Main />} />
-                <Route path="/repositorio/:localRepo" element={<Repositorio />} />
+                <Route path="/Repos" element={<Main />} />
+                <Route path="/Repos/repositorio/:localRepo" element={<Repositorio />} />
             </Routes>
         </BrowserRouter>
     )
